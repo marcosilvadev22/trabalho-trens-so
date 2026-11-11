@@ -1,0 +1,915 @@
+<?xml version="1.0" ?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1160</width>
+    <height>520</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Malha Ferroviária - 6 Trens</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="trilho_1">
+    <property name="geometry">
+     <rect>
+      <x>168</x>
+      <y>38</y>
+      <width>524</width>
+      <height>4</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #1565ff; }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="trilho_2">
+    <property name="geometry">
+     <rect>
+      <x>168</x>
+      <y>178</y>
+      <width>524</width>
+      <height>4</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #1565ff; }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="trilho_3">
+    <property name="geometry">
+     <rect>
+      <x>38</x>
+      <y>318</y>
+      <width>784</width>
+      <height>4</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #1565ff; }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="trilho_4">
+    <property name="geometry">
+     <rect>
+      <x>38</x>
+      <y>458</y>
+      <width>784</width>
+      <height>4</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #1565ff; }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="trilho_5">
+    <property name="geometry">
+     <rect>
+      <x>168</x>
+      <y>38</y>
+      <width>4</width>
+      <height>284</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #1565ff; }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="trilho_6">
+    <property name="geometry">
+     <rect>
+      <x>688</x>
+      <y>38</y>
+      <width>4</width>
+      <height>284</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #1565ff; }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="trilho_7">
+    <property name="geometry">
+     <rect>
+      <x>428</x>
+      <y>178</y>
+      <width>4</width>
+      <height>144</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #1565ff; }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="trilho_8">
+    <property name="geometry">
+     <rect>
+      <x>38</x>
+      <y>318</y>
+      <width>4</width>
+      <height>144</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #1565ff; }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="trilho_9">
+    <property name="geometry">
+     <rect>
+      <x>298</x>
+      <y>318</y>
+      <width>4</width>
+      <height>144</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #1565ff; }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="trilho_10">
+    <property name="geometry">
+     <rect>
+      <x>558</x>
+      <y>318</y>
+      <width>4</width>
+      <height>144</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #1565ff; }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="trilho_11">
+    <property name="geometry">
+     <rect>
+      <x>818</x>
+      <y>318</y>
+      <width>4</width>
+      <height>144</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #1565ff; }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_regiao1">
+    <property name="geometry">
+     <rect>
+      <x>291</x>
+      <y>171</y>
+      <width>18</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #e3f2fd; color: #0d47a1; border: 1px solid #1565ff; border-radius: 9px; font-size: 9px; }</string>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_regiao2">
+    <property name="geometry">
+     <rect>
+      <x>551</x>
+      <y>171</y>
+      <width>18</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #e3f2fd; color: #0d47a1; border: 1px solid #1565ff; border-radius: 9px; font-size: 9px; }</string>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_regiao3">
+    <property name="geometry">
+     <rect>
+      <x>421</x>
+      <y>241</y>
+      <width>18</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #e3f2fd; color: #0d47a1; border: 1px solid #1565ff; border-radius: 9px; font-size: 9px; }</string>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_regiao4">
+    <property name="geometry">
+     <rect>
+      <x>226</x>
+      <y>311</y>
+      <width>18</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #e3f2fd; color: #0d47a1; border: 1px solid #1565ff; border-radius: 9px; font-size: 9px; }</string>
+    </property>
+    <property name="text">
+     <string>4</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_regiao5">
+    <property name="geometry">
+     <rect>
+      <x>356</x>
+      <y>311</y>
+      <width>18</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #e3f2fd; color: #0d47a1; border: 1px solid #1565ff; border-radius: 9px; font-size: 9px; }</string>
+    </property>
+    <property name="text">
+     <string>5</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_regiao6">
+    <property name="geometry">
+     <rect>
+      <x>486</x>
+      <y>311</y>
+      <width>18</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #e3f2fd; color: #0d47a1; border: 1px solid #1565ff; border-radius: 9px; font-size: 9px; }</string>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_regiao7">
+    <property name="geometry">
+     <rect>
+      <x>616</x>
+      <y>311</y>
+      <width>18</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #e3f2fd; color: #0d47a1; border: 1px solid #1565ff; border-radius: 9px; font-size: 9px; }</string>
+    </property>
+    <property name="text">
+     <string>7</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_regiao8">
+    <property name="geometry">
+     <rect>
+      <x>291</x>
+      <y>381</y>
+      <width>18</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #e3f2fd; color: #0d47a1; border: 1px solid #1565ff; border-radius: 9px; font-size: 9px; }</string>
+    </property>
+    <property name="text">
+     <string>8</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_regiao9">
+    <property name="geometry">
+     <rect>
+      <x>551</x>
+      <y>381</y>
+      <width>18</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #e3f2fd; color: #0d47a1; border: 1px solid #1565ff; border-radius: 9px; font-size: 9px; }</string>
+    </property>
+    <property name="text">
+     <string>9</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem1">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>30</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #e53935; color: black; border: 1px solid #222; font-weight: bold; }</string>
+    </property>
+    <property name="text">
+     <string>a</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem2">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>240</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #fb8c00; color: black; border: 1px solid #222; font-weight: bold; }</string>
+    </property>
+    <property name="text">
+     <string>b</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem3">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>240</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #fdd835; color: black; border: 1px solid #222; font-weight: bold; }</string>
+    </property>
+    <property name="text">
+     <string>c</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>380</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #43a047; color: black; border: 1px solid #222; font-weight: bold; }</string>
+    </property>
+    <property name="text">
+     <string>d</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem5">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>450</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #00acc1; color: black; border: 1px solid #222; font-weight: bold; }</string>
+    </property>
+    <property name="text">
+     <string>e</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_trem6">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>380</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #8e24aa; color: black; border: 1px solid #222; font-weight: bold; }</string>
+    </property>
+    <property name="text">
+     <string>f</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="titulo_controle">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>25</y>
+      <width>240</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { font-weight: bold; }</string>
+    </property>
+    <property name="text">
+     <string>Controle de velocidade</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="nome_a">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>60</y>
+      <width>20</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #e0e0e0; border: 1px solid #555; font-weight: bold; }</string>
+    </property>
+    <property name="text">
+     <string>a</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QSlider" name="slider_a">
+    <property name="geometry">
+     <rect>
+      <x>918</x>
+      <y>60</y>
+      <width>180</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>0</number>
+    </property>
+    <property name="maximum">
+     <number>200</number>
+    </property>
+    <property name="value">
+     <number>100</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="valor_a">
+    <property name="geometry">
+     <rect>
+      <x>1104</x>
+      <y>60</y>
+      <width>36</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>100</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="nome_b">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>105</y>
+      <width>20</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #e0e0e0; border: 1px solid #555; font-weight: bold; }</string>
+    </property>
+    <property name="text">
+     <string>b</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QSlider" name="slider_b">
+    <property name="geometry">
+     <rect>
+      <x>918</x>
+      <y>105</y>
+      <width>180</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>0</number>
+    </property>
+    <property name="maximum">
+     <number>200</number>
+    </property>
+    <property name="value">
+     <number>100</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="valor_b">
+    <property name="geometry">
+     <rect>
+      <x>1104</x>
+      <y>105</y>
+      <width>36</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>100</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="nome_c">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>150</y>
+      <width>20</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #e0e0e0; border: 1px solid #555; font-weight: bold; }</string>
+    </property>
+    <property name="text">
+     <string>c</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QSlider" name="slider_c">
+    <property name="geometry">
+     <rect>
+      <x>918</x>
+      <y>150</y>
+      <width>180</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>0</number>
+    </property>
+    <property name="maximum">
+     <number>200</number>
+    </property>
+    <property name="value">
+     <number>100</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="valor_c">
+    <property name="geometry">
+     <rect>
+      <x>1104</x>
+      <y>150</y>
+      <width>36</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>100</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="nome_d">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>195</y>
+      <width>20</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #e0e0e0; border: 1px solid #555; font-weight: bold; }</string>
+    </property>
+    <property name="text">
+     <string>d</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QSlider" name="slider_d">
+    <property name="geometry">
+     <rect>
+      <x>918</x>
+      <y>195</y>
+      <width>180</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>0</number>
+    </property>
+    <property name="maximum">
+     <number>200</number>
+    </property>
+    <property name="value">
+     <number>100</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="valor_d">
+    <property name="geometry">
+     <rect>
+      <x>1104</x>
+      <y>195</y>
+      <width>36</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>100</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="nome_e">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>240</y>
+      <width>20</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #e0e0e0; border: 1px solid #555; font-weight: bold; }</string>
+    </property>
+    <property name="text">
+     <string>e</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QSlider" name="slider_e">
+    <property name="geometry">
+     <rect>
+      <x>918</x>
+      <y>240</y>
+      <width>180</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>0</number>
+    </property>
+    <property name="maximum">
+     <number>200</number>
+    </property>
+    <property name="value">
+     <number>100</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="valor_e">
+    <property name="geometry">
+     <rect>
+      <x>1104</x>
+      <y>240</y>
+      <width>36</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>100</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="nome_f">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>285</y>
+      <width>20</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #e0e0e0; border: 1px solid #555; font-weight: bold; }</string>
+    </property>
+    <property name="text">
+     <string>f</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QSlider" name="slider_f">
+    <property name="geometry">
+     <rect>
+      <x>918</x>
+      <y>285</y>
+      <width>180</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>0</number>
+    </property>
+    <property name="maximum">
+     <number>200</number>
+    </property>
+    <property name="value">
+     <number>100</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="valor_f">
+    <property name="geometry">
+     <rect>
+      <x>1104</x>
+      <y>285</y>
+      <width>36</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>100</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="nome_m">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>360</y>
+      <width>20</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { background: #e0e0e0; border: 1px solid #555; font-weight: bold; }</string>
+    </property>
+    <property name="text">
+     <string>m</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QSlider" name="slider_m">
+    <property name="geometry">
+     <rect>
+      <x>918</x>
+      <y>360</y>
+      <width>180</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>0</number>
+    </property>
+    <property name="maximum">
+     <number>200</number>
+    </property>
+    <property name="value">
+     <number>100</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="valor_m">
+    <property name="geometry">
+     <rect>
+      <x>1104</x>
+      <y>360</y>
+      <width>36</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>100</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="legenda_m">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>388</y>
+      <width>250</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel { color: #555; font-size: 10px; }</string>
+    </property>
+    <property name="text">
+     <string>m = controle mestre (todos os trens)</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
